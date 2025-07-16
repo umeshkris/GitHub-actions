@@ -10,11 +10,11 @@ jobs :
           - name: Checkout
             uses: actions/checkout@v4
           - name : Welcome Message
-            run : echo "my first Git Hub Actions"
+            run : echo "my Second Git Hub Actions"
          
           - name : list the files
             run  : |
-                echo "my first Git Hub Actions"
+                echo "my Second Git Hub Actions"
                 ls -ltra
                 cat README.txt
           - name : Install cowsay

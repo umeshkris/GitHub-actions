@@ -15,7 +15,7 @@ jobs :
           - name : list the files
             run  : |
                 echo "my Second Git Hub Actions"
-                ls -ltra
+                ls -l
                 cat README.txt
           - name : Install cowsay
             run: sudo apt get install cowsay -y     

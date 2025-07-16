@@ -16,8 +16,8 @@ jobs :
             run  : |
                 echo "my Second Git Hub Actions"
                 ls -l
-                cat README.txt
-                
+               
+
           - name : Install cowsay
             run: sudo apt get install cowsay -y     
           - name : Generate ASCII Artwork
